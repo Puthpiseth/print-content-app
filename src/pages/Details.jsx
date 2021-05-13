@@ -2,7 +2,6 @@ import React, {useState, useEffect} from 'react';
 import axios from 'axios';
 import '../styles/Details.css';
 
-
 function Details(props) {
     // console.log(props);
     const [showDetails, setShowDetails] = useState({});
