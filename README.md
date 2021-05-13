@@ -1,6 +1,6 @@
 ## Print-Content-App
 
-This application was developped with ReactJs and API (https://jsonplaceholder.typicode.com/). It is responsive and adaptable to all types of screen devices. 
+This application was developed with ReactJs and API (https://jsonplaceholder.typicode.com/). It is responsive and adaptable to all types of screen devices. 
 
 <p align="center">
     <img src="https://img.shields.io/github/repo-size/Puthpiseth/print-content-app" />
