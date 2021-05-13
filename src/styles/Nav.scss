@@ -1,0 +1,48 @@
+@import 'Login';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    margin: 3% 3%;
+
+    ul{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        li{
+            list-style-type: none;
+            font-size: 1.3em;
+            cursor: pointer;
+
+            &:hover{
+                color: $mainColor;
+            }
+            
+            a{
+                text-decoration: none;
+
+                &:hover{
+                    color: $mainColor;
+                }
+            }
+        }
+
+        .nav-right{
+            display:flex;
+
+            li{
+                margin-right: 15px;
+                cursor: pointer;
+
+                &:hover{
+                    color: $mainColor;
+                }
+            }
+        }
+    }
+}
