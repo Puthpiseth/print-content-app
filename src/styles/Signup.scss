@@ -1,0 +1,57 @@
+$mainColor: #1da1f2;
+$textColor: #fff;
+$borderColor: #808080;
+
+.form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 25%;
+    margin-top: 10%;
+    width: 50%;
+
+    h2 {
+        margin-bottom: 10%;
+    }
+
+    .form-inputs {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 2%; 
+        width: 100%; 
+       
+
+        label{
+            font-size: 1.2em;  
+        }
+
+        input {
+            width: 100%;
+            height: 5vh;
+            font-size: 1em;
+            border: none;
+            border-bottom: 1px solid $borderColor; 
+
+            &:focus {
+                outline: 1px solid $mainColor;
+                box-shadow: 0 0 7px $mainColor;
+            }
+        }
+    }
+
+    button {
+        left: 0;
+        height: 5vh;
+        font-size: 1.3em;
+        background: $mainColor;
+        color:$textColor;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+    
+        &:hover{
+            opacity: 0.9;
+        }
+    
+    }
+}

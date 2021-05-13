@@ -1,0 +1,63 @@
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  left: 25%;
+  margin-top: 10%;
+  width: 50%;
+}
+
+.form h2 {
+  margin-bottom: 10%;
+}
+
+.form .form-inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 2%;
+  width: 100%;
+}
+
+.form .form-inputs label {
+  font-size: 1.2em;
+}
+
+.form .form-inputs input {
+  width: 100%;
+  height: 5vh;
+  font-size: 1em;
+  border: none;
+  border-bottom: 1px solid #808080;
+}
+
+.form .form-inputs input:focus {
+  outline: 1px solid #1da1f2;
+  -webkit-box-shadow: 0 0 7px #1da1f2;
+          box-shadow: 0 0 7px #1da1f2;
+}
+
+.form button {
+  left: 0;
+  height: 5vh;
+  font-size: 1.3em;
+  background: #1da1f2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  opacity: 0.9;
+}
+/*# sourceMappingURL=Signup.css.map */
